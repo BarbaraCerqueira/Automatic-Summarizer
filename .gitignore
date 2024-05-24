@@ -1,0 +1,4 @@
+/.venv
+/embedEtcd.yaml
+/standalone_embed.sh
+/volumes
