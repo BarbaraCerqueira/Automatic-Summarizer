@@ -2,3 +2,5 @@
 /embedEtcd.yaml
 /standalone_embed.sh
 /volumes
+/user.yaml
+/.env
