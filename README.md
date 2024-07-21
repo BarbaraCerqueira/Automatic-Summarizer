@@ -2,6 +2,8 @@
 
 ``!`` Este trabalho foi desenvolvido como Trabalho Final da disciplina de Busca e Mineração de Texto (BMT), do período 2024.1 da Universidade Federal do Rio de Janeiro (UFRJ).
 
+``!`` O artigo que apresenta este projeto com maiores detalhes sobre seu desenvolvimento está disponível para leitura em: [https://pt.overleaf.com/read/bfqzshwcgqfb#d26599](https://pt.overleaf.com/read/bfqzshwcgqfb#d26599)
+
 A proposta deste trabalho é desenvolver uma Prova de Conceito no intuito de demonstrar um sumarizador automático de texto capaz de gerar resumos extrativos de documentos usando embeddings para capturar a semântica das frases. Para os testes e avaliação, será utilizado o dataset CNN/DailyMail; ele contém artigos de notícias e seus resumos, e é amplamente utilizado para tarefas de sumarização. 
 
 O pipeline de execução do sumarizador será composto, basicamente, pelas seguintes etapas: 
