@@ -13,13 +13,13 @@ O pipeline de execução do sumarizador será composto, basicamente, pelas segui
 4. Obter as frases mais representativas de cada cluster; 
 5. Compor o resumo extrativo a partir das frases obtidas.
 
-```Observações:```
+## Observações
 
 Serão utilizados e testados os seguintes modelos de embedding: ``text-embedding-3-small``, ``text-embedding-3-large`` e ``text-embedding-ada-002`` (OpenAI), ``bert-base-uncased`` (BERT), ``roberta-base`` (RoBERTa), ``paraphrase-MiniLM-L6-v2`` (S-BERT ou Sentence-BERT). Os modelos BERT e RoBERTa foram obtidos através da biblioteca "transformers" da Hugging Face, enquanto o S-BERT veio da "sentence-transformers". Não confundir o S-BERT com o modelo BERT para frases, são diferentes e possuem arquiteturas diferentes.
 
 Para utilizar os modelos da OpenAI é necessário acesso a uma chave de API da OpenAI.
 
-```Instruções de Uso:```
+## Instruções de Uso
 
 - Descomentar e executar a primeira célula para instalar as dependências necessárias. As bibliotecas que trazem ferramentas de deep learning são bem pesadas e o processo pode demorar. Lembre-se de reiniciar o kernel após isso.
 - Descomentar e fazer download do 'punkt' na quarta célula. Ele é necessário para algumas funcionalidades da biblioteca nltk. Talvez também seja necessário reiniciar o kernel após isso.
